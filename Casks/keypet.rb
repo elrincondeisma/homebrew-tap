@@ -1,6 +1,6 @@
 cask "keypet" do
   version "1.0.1"
-  sha256 "PLACEHOLDER"
+  sha256 "e9bf02918292d354fb90155e45c4449741db4cea398590a5e25c1fde3557520d"
 
   url "https://github.com/elrincondeisma/keypet/releases/download/v#{version}/KeyPet-#{version}-arm64.dmg"
   name "KeyPet"
