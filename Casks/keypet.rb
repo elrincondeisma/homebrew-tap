@@ -1,6 +1,6 @@
 cask "keypet" do
   version "1.0.1"
-  sha256 "6c5b06eacf1ea42d21406929c23bf508856cb26806748c5d9400f2d650258d2a"
+  sha256 "19e1d442a0f356ebdf69620a04f5b5b731b2d5aa3a73ce51265602414236410b"
 
   url "https://github.com/elrincondeisma/keypet/releases/download/v#{version}/KeyPet-#{version}-arm64.dmg"
   name "KeyPet"
