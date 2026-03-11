@@ -12,6 +12,13 @@ cask "keypet" do
 
   app "KeyPet.app"
 
+  preflight do
+    system_command "/usr/bin/osascript",
+                   args: ["-e", 'tell application "KeyPet" to quit'],
+                   sudo: false
+    sleep 2
+  end
+
   postflight do
     system_command "/usr/bin/xattr",
                    args: ["-d", "com.apple.quarantine", "#{appdir}/KeyPet.app"],
