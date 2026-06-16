@@ -1,6 +1,6 @@
 cask "ecs-monitor" do
-  version "1.3.0"
-  sha256 "09f33a11f5d5cfd86214f9464c9478e1e8e49011ce069d3aad7953c79a936cf0"
+  version "1.3.1"
+  sha256 "62f03e39ece27b5f58a95f35793eed6c9e1c94e9f6df78e8857c7ad01d1f6884"
 
   url "https://github.com/elrincondeisma/desktop-monitor-ecs/releases/download/v#{version}/ECSMonitor-#{version}-universal.zip",
       verified: "github.com/elrincondeisma/desktop-monitor-ecs/"
